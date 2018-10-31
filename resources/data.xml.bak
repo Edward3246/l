@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <pack>
+<<<<<<< HEAD
     <tileset across="1" atlasID="0" desc="" down="1" id="5" name="DOOR" oid="-1" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+=======
+    <tileset across="6" atlasID="0" desc="" down="6" id="7" name="DOORS" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="1" id="1" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="2" id="2" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="3" id="3" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="4" id="4" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="5" id="5" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="6" id="6" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="7" id="7" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="8" id="8" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="9" id="9" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="10" id="10" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="11" id="11" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="12" id="12" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="13" id="13" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="14" id="14" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="15" id="15" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="16" id="16" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="17" id="17" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="18" id="18" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="19" id="19" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="20" id="20" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="21" id="21" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="22" id="22" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="23" id="23" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="24" id="24" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="25" id="25" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="26" id="26" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="27" id="27" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="28" id="28" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="29" id="29" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="30" id="30" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="31" id="31" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="32" id="32" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="33" id="33" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="34" id="34" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="35" id="35" order="-1"/>
+>>>>>>> 6d4fdb1df65f08bee5aca6d93d0c0c20401698fc
     </tileset>
     <tileset across="3" atlasID="0" desc="" down="3" id="4" name="EARTH" oid="-1" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
