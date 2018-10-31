@@ -7,7 +7,9 @@
     <joints/>
     <regions/>
     <terrainRegions/>
-    <actors/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="0" name="Wizzy 1" sx="1.0" sy="1.0" x="295" y="178" z="0"/>
+    </actors>
     <snippets/>
     <terrain>
         <p pts="4,640.0,480.0,0.0,480.0,0.0,0.0,640.0,0.0" x="0.0" y="0.0"/>

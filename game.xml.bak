@@ -52,11 +52,7 @@
     <folders/>
     <packs/>
     <groups/>
-    <cgroups>
-        <cgroup g1="0" g2="1"/>
-        <cgroup g1="1" g2="3"/>
-        <cgroup g1="3" g2="3"/>
-    </cgroups>
+    <cgroups/>
     <input>
         <key id="0" keyname="UP" name="up" vk="38" vks="38"/>
         <key id="1" keyname="DOWN" name="down" vk="40" vks="40"/>
@@ -70,7 +66,10 @@
         <cat id="-1" name="Default"/>
     </attcats>
     <props/>
-    <attributes/>
+    <attributes>
+        <number cid="-1" id="1" name="Wizzy1Y" save="true" value="0"/>
+        <number cid="-1" id="0" name="Wizzy1X" save="true" value="0"/>
+    </attributes>
     <collisions>
         <poly id="0" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
         <poly id="1" name="Rect Up" pts="0.0,0.0#0.0,0.5#1.0,0.5#1.0,0.0"/>
@@ -100,7 +99,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,17,4,7,9,12," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,17,19,4,7,9,12," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>
