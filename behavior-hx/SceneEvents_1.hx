@@ -40,6 +40,7 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
+import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -69,50 +70,18 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class Design_9_9_CannotExitScreen extends ActorScript
+class SceneEvents_1 extends SceneScript
 {
 	
 	
-	public function new(dummy:Int, actor:Actor, dummy2:Engine)
+	public function new(dummy:Int, dummy2:Engine)
 	{
-		super(actor);
-		nameMap.set("Actor", "actor");
+		super();
 		
 	}
 	
 	override public function init()
 	{
-		
-		/* ======================== When Creating ========================= */
-		actor.makeAlwaysSimulate();
-		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				if((actor.getScreenX() < 0))
-				{
-					actor.setX(getScreenX());
-					actor.setXVelocity(0);
-				}
-				if((actor.getScreenY() < 0))
-				{
-					actor.setY(getScreenY());
-					actor.setYVelocity(0);
-				}
-				if(((actor.getScreenX() + (actor.getWidth())) > getScreenWidth()))
-				{
-					actor.setX((getScreenX() + (getScreenWidth() - (actor.getWidth()))));
-					actor.setXVelocity(0);
-				}
-				if(((actor.getScreenY() + (actor.getHeight())) > getScreenHeight()))
-				{
-					actor.setY((getScreenY() + (getScreenHeight() - (actor.getHeight()))));
-					actor.setYVelocity(0);
-				}
-			}
-		});
 		
 	}
 	

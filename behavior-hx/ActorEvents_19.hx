@@ -82,14 +82,14 @@ class ActorEvents_19 extends ActorScript
 	override public function init()
 	{
 		
-		/* ======================= After N seconds ======================== */
-		runLater(1000 * 2.5, function(timeTask:TimedTask):Void
+		/* ======================== Actor of Type ========================= */
+		addActorTypeGroupPositionListener(getActorType(19).ID, function(a:Actor, enteredScreen:Bool, exitedScreen:Bool, enteredScene:Bool, exitedScene:Bool, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled)
+			if(wrapper.enabled && exitedScreen)
 			{
-				recycleActor(actor);
+				recycleActor(a);
 			}
-		}, actor);
+		});
 		
 	}
 	
