@@ -53,12 +53,25 @@
     <tileset across="1" atlasID="0" desc="" down="1" id="34" name="gh" oid="-1" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
     </tileset>
-    <tileset across="1" atlasID="0" desc="" down="1" id="24" name="tree" oid="-1" shared="false" th="32" tw="32">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="12" fixedrot="false" fric="0.2" gid="3" id="35" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Slime" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="36" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="13" id="36" name="Slime" shared="false" width="27">
+        <anim across="2" down="1" durations="100,100" height="13" id="0" loop="true" name="Wiggle" numframes="2" originx="13" originy="6" sync="false" version="2" width="54">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <tileset across="2" atlasID="0" desc="" down="3" id="24" name="tree" oid="-1" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="1" id="1" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="2" id="2" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="3" id="3" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="4" id="4" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="5" id="5" order="-1"/>
     </tileset>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="0" fixedrot="true" fric="0.2" gid="3" id="0" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Wizzy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="0" fixedrot="true" fric="0.2" gid="0" id="0" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Wizzy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1" static="false">
         <snippets>
-            <s enabled="true" id="9">
+            <s enabled="false" id="9">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
         </snippets>
