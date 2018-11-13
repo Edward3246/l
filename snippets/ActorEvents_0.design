@@ -432,4 +432,16 @@
         </init>
     </group>
     <group eventID="6" id="-1"/>
+    <group eventID="7" id="0">
+        <event-collide-actortoactor comment="false" x="15" y="15">
+            <group eventID="7" id="-1">
+                <die comment="false" x="26" y="47">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+            </group>
+            <get-val-0-6 comment="false" id="0" x="0" y="0"/>
+            <get-val-0-5 comment="false" id="1" x="0" y="0"/>
+        </event-collide-actortoactor>
+    </group>
+    <group eventID="7" id="-1"/>
 </groups>

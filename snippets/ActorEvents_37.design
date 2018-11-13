@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-collide-actortoactor comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <die comment="false" x="26" y="47">
+                    <first-actor comment="false" id="0" x="0" y="0"/>
+                </die>
+            </group>
+            <get-val-13-3 comment="false" id="0" x="0" y="0"/>
+            <get-val-13-2 comment="false" id="1" x="0" y="0"/>
+        </event-collide-actortoactor>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>
