@@ -73,12 +73,17 @@ import com.stencyl.graphics.shaders.BloomShader;
 class SceneEvents_0 extends SceneScript
 {
 	public var _TestLvlGo:String;
+	public var _loser:Actor;
+	public var _loserr:Bool;
 	
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
 		super();
 		nameMap.set("TestLvlGo", "_TestLvlGo");
+		nameMap.set("loser", "_loser");
+		nameMap.set("loserr", "_loserr");
+		_loserr = false;
 		
 	}
 	

@@ -152,15 +152,6 @@ class ActorEvents_0 extends ActorScript
 			}
 		});
 		
-		/* ======================== Specific Actor ======================== */
-		addCollisionListener(_wizzy, function(event:Collision, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && (_trap == event.otherActor))
-			{
-				recycleActor(actor);
-			}
-		});
-		
 		/* ======================== When Updating ========================= */
 		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
 		{
@@ -224,6 +215,15 @@ class ActorEvents_0 extends ActorScript
 						}
 					}
 				}
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && (event.otherActor == event.otherActor))
+			{
+				recycleActor(event.otherActor);
 			}
 		});
 		
