@@ -1,92 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<scene depth="2" desc="" eventsnippetid="1" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="0" name="Level 1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+<scene depth="1" desc="" eventsnippetid="1" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="0" name="Level 1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
     <layers>
         <color-bg blue="255" green="255" red="255"/>
-        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="0,255,0" id="1" locked="false" name="Layer 1" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
     </layers>
     <joints/>
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="false" group="0" id="0" name="Wizzy 1" sx="1.0" sy="1.0" x="580" y="225" z="1"/>
-        <actor a="0.0" aid="2" c="false" group="3" id="37" name="trap 2" sx="1.0" sy="1.0" x="18" y="430" z="1"/>
-        <actor a="0.0" aid="3" c="false" group="3" id="37" name="trap 3" sx="1.0" sy="1.0" x="19" y="396" z="1"/>
-        <actor a="0.0" aid="4" c="false" group="3" id="37" name="trap 4" sx="1.0" sy="1.0" x="18" y="364" z="1"/>
-        <actor a="0.0" aid="5" c="false" group="3" id="37" name="trap 5" sx="1.0" sy="1.0" x="50" y="366" z="1"/>
-        <actor a="0.0" aid="6" c="false" group="3" id="37" name="trap 6" sx="1.0" sy="1.0" x="55" y="399" z="1"/>
-        <actor a="0.0" aid="7" c="false" group="3" id="37" name="trap 7" sx="1.0" sy="1.0" x="83" y="365" z="1"/>
-        <actor a="0.0" aid="8" c="false" group="3" id="37" name="trap 8" sx="1.0" sy="1.0" x="125" y="362" z="1"/>
-        <actor a="0.0" aid="9" c="false" group="3" id="37" name="trap 9" sx="1.0" sy="1.0" x="160" y="359" z="1"/>
-        <actor a="0.0" aid="10" c="false" group="3" id="37" name="trap 10" sx="1.0" sy="1.0" x="192" y="359" z="1"/>
-        <actor a="0.0" aid="11" c="false" group="3" id="37" name="trap 11" sx="1.0" sy="1.0" x="230" y="359" z="1"/>
-        <actor a="0.0" aid="12" c="false" group="3" id="37" name="trap 12" sx="1.0" sy="1.0" x="273" y="359" z="1"/>
-        <actor a="0.0" aid="13" c="false" group="3" id="37" name="trap 13" sx="1.0" sy="1.0" x="313" y="359" z="1"/>
-        <actor a="0.0" aid="14" c="false" group="3" id="37" name="trap 14" sx="1.0" sy="1.0" x="373" y="359" z="1"/>
-        <actor a="0.0" aid="15" c="false" group="3" id="37" name="trap 15" sx="1.0" sy="1.0" x="437" y="359" z="1"/>
-        <actor a="0.0" aid="16" c="false" group="3" id="37" name="trap 16" sx="1.0" sy="1.0" x="484" y="359" z="1"/>
-        <actor a="0.0" aid="17" c="false" group="3" id="37" name="trap 17" sx="1.0" sy="1.0" x="535" y="359" z="1"/>
-        <actor a="0.0" aid="18" c="false" group="3" id="37" name="trap 18" sx="1.0" sy="1.0" x="582" y="359" z="1"/>
-        <actor a="0.0" aid="19" c="false" group="3" id="37" name="trap 19" sx="1.0" sy="1.0" x="603" y="398" z="1"/>
-        <actor a="0.0" aid="20" c="false" group="3" id="37" name="trap 20" sx="1.0" sy="1.0" x="595" y="430" z="1"/>
-        <actor a="0.0" aid="21" c="false" group="3" id="37" name="trap 21" sx="1.0" sy="1.0" x="532" y="449" z="1"/>
-        <actor a="0.0" aid="22" c="false" group="3" id="37" name="trap 22" sx="1.0" sy="1.0" x="498" y="449" z="1"/>
-        <actor a="0.0" aid="23" c="false" group="3" id="37" name="trap 23" sx="1.0" sy="1.0" x="456" y="449" z="1"/>
-        <actor a="0.0" aid="24" c="false" group="3" id="37" name="trap 24" sx="1.0" sy="1.0" x="390" y="449" z="1"/>
-        <actor a="0.0" aid="25" c="false" group="3" id="37" name="trap 25" sx="1.0" sy="1.0" x="339" y="449" z="1"/>
-        <actor a="0.0" aid="26" c="false" group="3" id="37" name="trap 26" sx="1.0" sy="1.0" x="306" y="449" z="1"/>
-        <actor a="0.0" aid="27" c="false" group="3" id="37" name="trap 27" sx="1.0" sy="1.0" x="246" y="452" z="1"/>
-        <actor a="0.0" aid="28" c="false" group="3" id="37" name="trap 28" sx="1.0" sy="1.0" x="191" y="452" z="1"/>
-        <actor a="0.0" aid="29" c="false" group="3" id="37" name="trap 29" sx="1.0" sy="1.0" x="128" y="452" z="1"/>
-        <actor a="0.0" aid="30" c="false" group="3" id="37" name="trap 30" sx="1.0" sy="1.0" x="69" y="452" z="1"/>
-        <actor a="0.0" aid="31" c="false" group="3" id="37" name="trap 31" sx="1.0" sy="1.0" x="106" y="417" z="1"/>
-        <actor a="0.0" aid="32" c="false" group="3" id="37" name="trap 32" sx="1.0" sy="1.0" x="123" y="391" z="1"/>
-        <actor a="0.0" aid="33" c="false" group="3" id="37" name="trap 33" sx="1.0" sy="1.0" x="176" y="404" z="1"/>
-        <actor a="0.0" aid="34" c="false" group="3" id="37" name="trap 34" sx="1.0" sy="1.0" x="229" y="417" z="1"/>
-        <actor a="0.0" aid="35" c="false" group="3" id="37" name="trap 35" sx="1.0" sy="1.0" x="254" y="381" z="1"/>
-        <actor a="0.0" aid="36" c="false" group="3" id="37" name="trap 36" sx="1.0" sy="1.0" x="274" y="415" z="1"/>
-        <actor a="0.0" aid="37" c="false" group="3" id="37" name="trap 37" sx="1.0" sy="1.0" x="316" y="382" z="1"/>
-        <actor a="0.0" aid="38" c="false" group="3" id="37" name="trap 38" sx="1.0" sy="1.0" x="389" y="395" z="1"/>
-        <actor a="0.0" aid="39" c="false" group="3" id="37" name="trap 39" sx="1.0" sy="1.0" x="410" y="395" z="1"/>
-        <actor a="0.0" aid="40" c="false" group="3" id="37" name="trap 40" sx="1.0" sy="1.0" x="449" y="405" z="1"/>
-        <actor a="0.0" aid="41" c="false" group="3" id="37" name="trap 41" sx="1.0" sy="1.0" x="507" y="407" z="1"/>
-        <actor a="0.0" aid="42" c="false" group="3" id="37" name="trap 42" sx="1.0" sy="1.0" x="533" y="402" z="1"/>
-        <actor a="0.0" aid="43" c="false" group="3" id="37" name="trap 43" sx="1.0" sy="1.0" x="300" y="435" z="1"/>
-        <actor a="0.0" aid="44" c="false" group="3" id="37" name="trap 44" sx="1.0" sy="1.0" x="332" y="417" z="1"/>
-        <actor a="0.0" aid="45" c="false" group="3" id="37" name="trap 45" sx="1.0" sy="1.0" x="357" y="398" z="1"/>
-        <actor a="0.0" aid="46" c="false" group="3" id="37" name="trap 46" sx="1.0" sy="1.0" x="24" y="228" z="1"/>
-        <actor a="0.0" aid="47" c="false" group="3" id="37" name="trap 47" sx="1.0" sy="1.0" x="294" y="12" z="1"/>
-        <actor a="0.0" aid="48" c="false" group="3" id="37" name="trap 48" sx="1.0" sy="1.0" x="532" y="20" z="1"/>
-        <actor a="0.0" aid="49" c="false" group="3" id="37" name="trap 49" sx="1.0" sy="1.0" x="21" y="77" z="1"/>
-        <actor a="0.0" aid="50" c="false" group="3" id="48" name="tree 50" sx="1.0" sy="1.0" x="364" y="6" z="1"/>
-        <actor a="0.0" aid="51" c="false" group="3" id="48" name="tree 51" sx="1.0" sy="1.0" x="356" y="40" z="1"/>
-        <actor a="0.0" aid="55" c="false" group="3" id="48" name="tree 55" sx="1.0" sy="1.0" x="458" y="65" z="1"/>
-        <actor a="0.0" aid="56" c="false" group="3" id="48" name="tree 56" sx="1.0" sy="1.0" x="465" y="33" z="1"/>
-        <actor a="0.0" aid="57" c="false" group="3" id="48" name="tree 57" sx="1.0" sy="1.0" x="256" y="9" z="1"/>
-        <actor a="0.0" aid="58" c="false" group="3" id="48" name="tree 58" sx="1.0" sy="1.0" x="259" y="44" z="1"/>
-        <actor a="0.0" aid="61" c="false" group="3" id="48" name="tree 61" sx="1.0" sy="1.0" x="199" y="152" z="1"/>
-        <actor a="0.0" aid="62" c="false" group="3" id="48" name="tree 62" sx="1.0" sy="1.0" x="158" y="161" z="1"/>
-        <actor a="0.0" aid="63" c="false" group="3" id="48" name="tree 63" sx="1.0" sy="1.0" x="106" y="156" z="1"/>
-        <actor a="0.0" aid="64" c="false" group="3" id="48" name="tree 64" sx="1.0" sy="1.0" x="68" y="124" z="1"/>
-        <actor a="0.0" aid="65" c="false" group="3" id="48" name="tree 65" sx="1.0" sy="1.0" x="57" y="83" z="1"/>
-        <actor a="0.0" aid="66" c="false" group="3" id="48" name="tree 66" sx="1.0" sy="1.0" x="55" y="48" z="1"/>
-        <actor a="0.0" aid="67" c="false" group="3" id="48" name="tree 67" sx="1.0" sy="1.0" x="60" y="13" z="1"/>
-        <actor a="0.0" aid="68" c="false" group="3" id="46" name="bush 68" sx="1.0" sy="1.0" x="346" y="123" z="1"/>
-        <actor a="0.0" aid="72" c="false" group="3" id="46" name="bush 72" sx="1.0" sy="1.0" x="346" y="275" z="1"/>
-        <actor a="0.0" aid="73" c="false" group="3" id="46" name="bush 73" sx="1.0" sy="1.0" x="282" y="186" z="1"/>
-        <actor a="0.0" aid="74" c="false" group="3" id="46" name="bush 74" sx="1.0" sy="1.0" x="272" y="223" z="1"/>
-        <actor a="0.0" aid="80" c="false" group="3" id="46" name="bush 80" sx="1.0" sy="1.0" x="469" y="176" z="1"/>
-        <actor a="0.0" aid="81" c="false" group="3" id="46" name="bush 81" sx="1.0" sy="1.0" x="521" y="169" z="1"/>
-        <actor a="0.0" aid="82" c="false" group="3" id="46" name="bush 82" sx="1.0" sy="1.0" x="592" y="145" z="1"/>
-        <actor a="0.0" aid="83" c="false" group="3" id="46" name="bush 83" sx="1.0" sy="1.0" x="633" y="118" z="1"/>
-        <actor a="0.0" aid="84" c="false" group="3" id="46" name="bush 84" sx="1.0" sy="1.0" x="540" y="94" z="1"/>
-        <actor a="0.0" aid="85" c="false" group="3" id="46" name="bush 85" sx="1.0" sy="1.0" x="538" y="135" z="1"/>
-        <actor a="0.0" aid="87" c="false" group="3" id="46" name="bush 87" sx="1.0" sy="1.0" x="491" y="263" z="1"/>
-        <actor a="0.0" aid="88" c="false" group="3" id="46" name="bush 88" sx="1.0" sy="1.0" x="459" y="310" z="1"/>
+        <actor a="0.0" aid="2" c="false" group="5" id="0" name="Wizzy 2" sx="1.0" sy="1.0" x="519" y="252" z="0"/>
     </actors>
     <snippets/>
     <terrain>
-        <p pts="4,640.0,480.0,0.0,480.0,0.0,0.0,640.0,0.0" x="0.0" y="0.0"/>
+        <p pts="4,0.0,0.0,96.0,0.0,96.0,96.0,0.0,96.0" x="224.0" y="160.0"/>
+        <p pts="8,96.0,0.0,96.0,96.0,0.0,96.0,0.0,64.0,32.0,64.0,32.0,32.0,64.0,32.0,64.0,0.0" x="416.0" y="160.0"/>
+        <p pts="4,576.0,0.0,0.0,0.0,0.0,416.0,576.0,416.0" x="32.0" y="32.0"/>
+        <p pts="4,0.0,480.0,0.0,0.0,640.0,0.0,640.0,480.0" x="0.0" y="0.0"/>
+        <p pts="4,96.0,96.0,0.0,96.0,0.0,0.0,96.0,0.0" x="320.0" y="256.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="416.0" y="160.0"/>
     </terrain>
     <atlases members="" retainAtlases="true"/>
 </scene>

@@ -13,7 +13,6 @@
             <event displayName="Movement" enabled="true" id="4" name="step" order="11" repeats="true"/>
             <event displayName="Created" enabled="true" id="5" name="init" order="2" repeats="true"/>
             <event displayName="Health" enabled="true" id="6" name="init" order="4" repeats="true"/>
-            <event displayName="Actor - Actor" enabled="true" id="7" name="event-collide-actortoactor" order="12" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_0" classname="scripts.SceneEvents_0" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="1" name="SceneEvents_0" oid="-1" package="scripts." sceneid="0" shared="false" type="scene">
@@ -130,7 +129,7 @@
         <actor default="" defaultValue="" desc="" dropdown="" fullname="trap" hidden="false" id="3" name="_trap" order="2"/>
         <blocks/>
         <events>
-            <event displayName="Actor - Actor" enabled="true" id="1" name="event-collide-actortoactor" order="1" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="5" name="event-collide-actortotype" order="3" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="39" attachedevent="true" class="scripts.ActorEvents_39" classname="scripts.ActorEvents_39" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="14" name="ActorEvents_39" oid="-1" package="scripts." shared="false" type="actor">
